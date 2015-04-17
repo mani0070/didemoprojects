@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "disample", "disample\disample.csproj", "{64CD5AD2-3362-4670-991E-DDC9DCE4E433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "disample.Tests", "disample.Tests\disample.Tests.csproj", "{70027C83-24CB-46E9-ADCC-D42336B49D79}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ditfs.cloudapp.net:8080/tfs/didemocode
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = disample.Tests\\disample.Tests.csproj
+		SccProjectName1 = disample.Tests
+		SccLocalPath1 = disample.Tests
+		SccProjectUniqueName2 = disample\\disample.csproj
+		SccProjectName2 = disample
+		SccLocalPath2 = disample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64CD5AD2-3362-4670-991E-DDC9DCE4E433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CD5AD2-3362-4670-991E-DDC9DCE4E433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CD5AD2-3362-4670-991E-DDC9DCE4E433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CD5AD2-3362-4670-991E-DDC9DCE4E433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
