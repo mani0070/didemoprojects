@@ -1,4 +1,4 @@
-﻿namespace CodedUIdisample
+﻿namespace RegressionSampleTest
 {
     using System;
     using System.Collections.Generic;

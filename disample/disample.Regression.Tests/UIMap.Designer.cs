@@ -8,7 +8,7 @@
 //  </auto-generated>
 // ------------------------------------------------------------------------------
 
-namespace CodedUIdisample
+namespace RegressionSampleTest
 {
     using System;
     using System.CodeDom.Compiler;

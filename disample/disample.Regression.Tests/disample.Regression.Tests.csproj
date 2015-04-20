@@ -9,7 +9,7 @@
     <ProjectGuid>{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodedUIdisample</RootNamespace>
+    <RootNamespace>RegressionSampleTest</RootNamespace>
     <AssemblyName>CodedUIdisample</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
