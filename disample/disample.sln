@@ -14,9 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C82747
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "disample.Regression.Tests", "disample.Regression.Tests\disample.Regression.Tests.csproj", "{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
+		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = http://ditfs.cloudapp.net:8080/tfs/didemocode
 		SccLocalPath0 = .
@@ -26,6 +28,9 @@ Global
 		SccProjectUniqueName2 = disample\\disample.csproj
 		SccProjectName2 = disample
 		SccLocalPath2 = disample
+		SccProjectUniqueName3 = disample.Regression.Tests\\disample.Regression.Tests.csproj
+		SccProjectName3 = disample.Regression.Tests
+		SccLocalPath3 = disample.Regression.Tests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +45,10 @@ Global
 		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70027C83-24CB-46E9-ADCC-D42336B49D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879CDBE5-FC5F-48E7-ADEA-A1A4EC6CCCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
