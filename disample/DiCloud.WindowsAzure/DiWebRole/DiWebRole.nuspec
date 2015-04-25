@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DiWebRole</id>
+    <version>$version$</version>
+    <title>DiWebRole</title>
+    <authors>mani@dinventive.com</authors>
+    <owners>DInventive.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a sample test Azure cloud service project</description>
+    <language>en-gb</language>
+  </metadata>
+  <files>
+    <file src="..\DiCloud.WindowsAzure\*.*"  />
+</files>
+</package>
