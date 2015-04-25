@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "DiCloud.WindowsAzure", "DiCloud.WindowsAzure\DiCloud.WindowsAzure.ccproj", "{6FE87E34-BC94-4945-B9B9-6202616AFEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiWebRole", "DiWebRole\DiWebRole.csproj", "{B9DB2069-D338-4757-966A-73417E5B8A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiWebRole.Tests", "DiWebRole.Tests\DiWebRole.Tests.csproj", "{EB332268-28B6-455E-AB35-16A48D92F691}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ditfs.cloudapp.net:8080/tfs/didemocode
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DiCloud.WindowsAzure\\DiCloud.WindowsAzure.ccproj
+		SccProjectName1 = DiCloud.WindowsAzure
+		SccLocalPath1 = DiCloud.WindowsAzure
+		SccProjectUniqueName2 = DiWebRole.Tests\\DiWebRole.Tests.csproj
+		SccProjectName2 = DiWebRole.Tests
+		SccLocalPath2 = DiWebRole.Tests
+		SccProjectUniqueName3 = DiWebRole\\DiWebRole.csproj
+		SccProjectName3 = DiWebRole
+		SccLocalPath3 = DiWebRole
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FE87E34-BC94-4945-B9B9-6202616AFEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE87E34-BC94-4945-B9B9-6202616AFEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE87E34-BC94-4945-B9B9-6202616AFEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE87E34-BC94-4945-B9B9-6202616AFEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DB2069-D338-4757-966A-73417E5B8A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DB2069-D338-4757-966A-73417E5B8A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DB2069-D338-4757-966A-73417E5B8A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DB2069-D338-4757-966A-73417E5B8A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB332268-28B6-455E-AB35-16A48D92F691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB332268-28B6-455E-AB35-16A48D92F691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB332268-28B6-455E-AB35-16A48D92F691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB332268-28B6-455E-AB35-16A48D92F691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
