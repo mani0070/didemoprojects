@@ -11,6 +11,6 @@
     <language>en-gb</language>
   </metadata>
   <files>
-    <file src="..\disample.WebRole.UI\*.*" />
+    <file src="..\disample.CloudService.App\*.*"  />
 </files>
 </package>
