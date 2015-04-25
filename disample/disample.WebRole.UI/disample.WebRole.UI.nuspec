@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>disample.WebRole.UI</id>
+    <version>$version$</version>
+    <title>disample.WebRole.UI</title>
+    <authors>mani@dinventive.com</authors>
+    <owners>DInventive.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a sample test Azure cloud service project</description>
+    <language>en-gb</language>
+  </metadata>
+  <files>
+    <file src="..\disample.WebRole.UI\*.*" />
+</files>
+</package>
