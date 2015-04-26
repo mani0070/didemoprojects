@@ -13,6 +13,8 @@ Function Get-MSBuild {
 $msbuildPath = Get-MSBuild 
 Write-Host "Ms Build Path " $msbuildPath
 
-$OctofullCmd = "$Env:TF_BUILD_SOURCESDIRECTORY\$arg"
+$OctofullCmd = "$Env:TF_BUILD_SOURCESDIRECTORY\"
+
+cd $OctofullCmd
 Write-Host "OctoFull Command" $msbuildpath $OctofullCmd
-& "$msbuildpath" $OctofullCmd
+& "$msbuildpath" $arg
