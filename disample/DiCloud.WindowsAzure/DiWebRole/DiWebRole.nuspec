@@ -10,7 +10,4 @@
     <description>This is a sample test Azure cloud service project</description>
     <language>en-gb</language>
   </metadata>
-  <files>
-    <file src="..\DiCloud.WindowsAzure\*.*"  />
-</files>
-</package>
+  </package>
