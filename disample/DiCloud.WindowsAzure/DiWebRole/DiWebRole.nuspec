@@ -15,7 +15,7 @@
     <file src="..\DiCloud.WindowsAzure\*.*" />
     <!-- Add the files .wadcfg file to the root to get the diagnostics working  -->
     <file src="..\DiCloud.WindowsAzure\DiWebRoleContent\*.*" />
-    <!--<file src="..\DiCloud.WindowsAzure\bin\Release\app.publish\*.*" />-->
+    <file src="..\DiCloud.WindowsAzure\bin\Release\app.publish\*.*" />
    
   </files>
   </package>
