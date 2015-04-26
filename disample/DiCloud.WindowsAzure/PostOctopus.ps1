@@ -17,4 +17,4 @@ $OctofullCmd = "$Env:TF_BUILD_SOURCESDIRECTORY\"
 
 cd $OctofullCmd
 Write-Host "OctoFull Command" $msbuildpath $OctofullCmd
-& "$msbuildpath" $arg
+& "$msbuildpath $Env:TF_BUILD_SOURCESDIRECTORY\$arg"
