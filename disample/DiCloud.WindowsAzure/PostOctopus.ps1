@@ -15,7 +15,6 @@ $msbuildPath = Get-MSBuildPath
 Write-Host "Ms Build Path " $msbuildPath
 
 $OctofullCmd = "$msbuildpath $Env:TF_BUILD_SOURCESDIRECTORY\$arg"
-cd $OctofullCmd
 
 Write-Host "OctoFull Command" $OctofullCmd
 Invoke-Expression -Command "$OctofullCmd"
