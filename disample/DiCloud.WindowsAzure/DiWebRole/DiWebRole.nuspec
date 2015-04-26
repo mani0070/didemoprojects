@@ -10,4 +10,10 @@
     <description>This is a sample test Azure cloud service project</description>
     <language>en-gb</language>
   </metadata>
+  <files>
+    <!-- Add the files (.cscfg, .csdef) from your Azure CS project to the root of your solution  -->
+    <file src="..\DiCloud.WindowsAzure\*.*" />
+    <!-- Add the files .wadcfg file to the root to get the diagnostics working  -->
+    <file src="..\DiCloud.WindowsAzure\DiWebRoleContent\*.*" />
+  </files>
   </package>
